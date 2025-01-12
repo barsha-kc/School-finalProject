@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="weather.js"></script>
+    <script src="menu.js" defer></script>
+    <title>Resort Stavyea</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="Name">
+            <div class="weather"></div>
+
+            <div class="logo">
+                <h1>Resort Stavyea</h1>
+            </div>
+
+            <a href="./cart.html" class="book-now">
+                <div class="cart-count-container">
+                    <span class="cart-count">0</span>
+                </div>
+                <img src="./Images/cart.svg" alt="cart">
+            </a>
+            <a href="#" class="book-now">Book Now</a>
+        </div>
+
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./experiences.html">Experiences</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                    <li><a href="./pricing.html">Pricing</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./aboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main class="pricing">
+        <h1>Our Menu</h1>
+        <p>Choose the best food experience with us!</p>
+
+
+       <div class="sort-bar">
+        <label for="sort-options">Sort by:</label>
+        <select id="sort-options">
+            <option value="none">None</option>
+            <option value="initials-asc">A-Z</option>
+            <option value="initials-desc">Z-A</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+        </select>
+       </div>
+
+        <!-- <div class="cart-container"></div> -->
+
+        <div class="menu-container"> </div>
+
+        <!-- <pagination></div> -->
+        <div class="pagination-container"> </div>
+        
+    </main>
+
+    
+</body>
+
+</html>

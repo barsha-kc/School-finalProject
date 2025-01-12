@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="weather.js"></script>
+    <script src="form.js" defer></script>
+    <title>Resort Stavyea</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="Name">
+            <div class="weather"></div>
+
+            <div class="logo">
+                <h1>Resort Stavyea</h1>
+            </div>
+
+            <a href="#" class="book-now">Book Now</a>
+        </div>
+
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./experiences.html">Experiences</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                    <li><a href="./pricing.html">Pricing</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./aboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="about">
+        <h1>About Us</h1>
+        <p>Welcome to Resort Stavyea, where luxury meets serenity. Located in the heart of nature, our resort offers
+            unparalleled comfort, modern amenities, and a variety of experiences that make every visit memorable.
+            Whether you're here to relax or celebrate, we ensure that your stay is unforgettable.</p>
+        <p>Our mission is to provide our guests with a perfect balance of relaxation and adventure. From our world-class
+            spa and swimming pool to unique dining experiences and recreational activities, Resort Stavya is the ideal
+            destination for families, couples, and solo travelers alike.</p>
+        <p>We are committed to sustainable tourism practices and aim to create a positive impact on our community and
+            environment. We invite you to be a part of our story.</p>
+    </main>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Whether you have a question, feedback, or special request, feel free to reach out
+            using the form below.</p>
+        <form id="suggestion">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+
+</html>

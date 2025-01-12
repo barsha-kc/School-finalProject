@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="weather.js"></script>
+    <script src="form.js" defer></script>
+    <title>Resort Stavyea</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="Name">
+            <div class="weather"></div>
+
+            <div class="logo">
+                <h1>Resort Stavyea</h1>
+            </div>
+
+            <a href="#" class="book-now">Book Now</a>
+        </div>
+
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./experiences.html">Experiences</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                    <li><a href="./pricing.html">Pricing</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./aboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="container">
+
+        <div class="experience-box">
+            <img src="./Images/ImageSpa.jpg" alt="Spa">
+            <h3>Spa</h3>
+            <p>Relax and rejuvenate in our world-class spa, featuring soothing treatments designed to revitalize your
+                body and mind.</p>
+        </div>
+
+        <div class="experience-box">
+            <img src="./Images/ImageSwim.jpg" alt="Swimming Pool">
+            <h3>Swimming Pool</h3>
+            <p>Take a refreshing dip in our crystal-clear swimming pool, perfect for a relaxing swim or an energetic
+                workout.</p>
+        </div>
+
+        <div class="experience-box">
+            <img src="./Images/ImageSauna.jpg" alt="Sauna">
+            <h3>Sauna</h3>
+            <p>Unwind in our luxurious sauna, where the heat melts away stress and promotes overall wellness.</p>
+        </div>
+    </main>
+
+
+    <section class="suggestion-form">
+        <h2>Your experience matters to us</h2>
+        <p>Let us know what more experiences you'd like from us!</p>
+        <form id="suggestion">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="suggestion">Suggestion for Experience:</label>
+            <textarea id="suggestion" name="suggestion" rows="5" placeholder="Tell us your idea..." required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+
+
+</body>
+
+</html>
